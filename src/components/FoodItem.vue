@@ -1,5 +1,4 @@
 <template>
-    
   <div>
     <h2>
       {{ foodName }}
@@ -7,7 +6,6 @@
     </h2>
     <p>{{ foodDesc }}</p>
   </div>
-    
   </template>
   
   <script>
@@ -60,11 +58,6 @@ export default {
   </script>
   
   <style>
-    #red {
-        font-weight: bold ;
-        color: rgb(144, 12, 12);
-        }
-
       img {
           height: 1.5em;
           float: right;
